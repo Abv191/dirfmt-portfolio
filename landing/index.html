@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dirfmt — CLI Tools & Digital Products</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0a0a0a; color: #e0e0e0; line-height: 1.6; }
+    a { color: #60a5fa; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+    header { text-align: center; padding: 3rem 0 2rem; border-bottom: 1px solid #1a1a1a; }
+    header h1 { font-size: 2.5rem; font-weight: 700; color: #fff; }
+    header p { color: #888; margin-top: 0.5rem; font-size: 1.1rem; }
+    section { padding: 2rem 0; border-bottom: 1px solid #1a1a1a; }
+    section h2 { font-size: 1.5rem; margin-bottom: 1rem; color: #fff; }
+    .card { background: #111; border: 1px solid #1e1e1e; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; }
+    .card h3 { margin-bottom: 0.5rem; color: #fff; }
+    .card p { color: #aaa; font-size: 0.95rem; }
+    .tag { display: inline-block; background: #1e3a5f; color: #60a5fa; padding: 0.15rem 0.6rem; border-radius: 4px; font-size: 0.75rem; margin-right: 0.3rem; }
+    .btn { display: inline-block; background: #2563eb; color: #fff; padding: 0.6rem 1.2rem; border-radius: 6px; font-weight: 600; transition: background 0.2s; }
+    .btn:hover { background: #3b82f6; text-decoration: none; }
+    .btn-outline { background: transparent; border: 1px solid #2563eb; color: #60a5fa; }
+    .btn-outline:hover { background: #2563eb; color: #fff; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+    pre { background: #1a1a1a; padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem; color: #a5f3fc; }
+    .price { font-size: 1.5rem; font-weight: 700; color: #fff; }
+    footer { text-align: center; padding: 2rem 0; color: #555; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>dirfmt</h1>
+      <p>CLI tools &amp; digital products for developers</p>
+    </header>
+
+    <section>
+      <h2>CLI Tools</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>dirfmt</h3>
+          <p>Organize files in any directory by type, date, or extension in seconds.</p>
+          <span class="tag">Python</span><span class="tag">CLI</span><span class="tag">PyPI</span>
+          <br><br>
+          <a class="btn" href="https://pypi.org/project/dirfmt/" target="_blank">Install on PyPI</a>
+          <a class="btn btn-outline" href="https://github.com/dirfmt/dirfmt" target="_blank">Source</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Digital Products</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Developer Prompt Pack</h3>
+          <p>50 production-tested AI prompts for coding, debugging, and DevOps workflows.</p>
+          <span class="tag">AI Prompts</span><span class="tag">Developers</span>
+          <br><br>
+          <span class="price">$19</span>
+          <br><br>
+          <a class="btn" href="https://gumroad.com/dirfmt" target="_blank">Buy on Gumroad</a>
+        </div>
+        <div class="card">
+          <h3>Productivity Notion Template</h3>
+          <p>Complete project management, task tracking, and meeting notes database.</p>
+          <span class="tag">Notion</span><span class="tag">Templates</span>
+          <br><br>
+          <span class="price">$29</span>
+          <br><br>
+          <a class="btn" href="https://gumroad.com/dirfmt" target="_blank">Buy on Gumroad</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Quick Start — dirfmt</h2>
+      <pre>pip install dirfmt
+
+# Organize files by type
+dirfmt /path/to/directory
+
+# Dry run to preview
+dirfmt /path/to/directory --dry-run -v
+
+# Organize by date
+dirfmt /path/to/directory --by date</pre>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>For freelance work, custom tooling, or inquiries: <a href="mailto:hello@dirfmt.dev">hello@dirfmt.dev</a></p>
+    </section>
+
+    <footer>
+      <p>dirfmt &copy; 2026. MIT License.</p>
+    </footer>
+  </div>
+</body>
+</html>
