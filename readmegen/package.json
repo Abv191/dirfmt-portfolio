@@ -1,0 +1,1 @@
+{"name": "readmegen", "version": "0.1.0", "description": "Generate a README.md from your project structure and package.json", "bin": {"readmegen": "./cli.js"}, "main": "index.js", "scripts": {"test": "echo \"No tests yet\" && exit 0"}, "keywords": ["cli", "readme", "generator", "github", "documentation"], "license": "MIT", "author": "dirfmt contributors"}
